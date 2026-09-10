@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.cmd text eol=crlf
+
+# Preserve vendored upstream snapshots; still detect conflict markers.
+.agents/skills/hallmark/** whitespace=-blank-at-eol,-blank-at-eof
+.agents/skills/impeccable/** whitespace=-blank-at-eol,-blank-at-eof
