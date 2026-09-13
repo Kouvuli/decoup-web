@@ -1,6 +1,6 @@
 # Planning tracker: central specs, local discovery, Trello intended
 
-Read [planning.json](planning.json) and [project-planning.md](project-planning.md). No Git remote or Trello connection exists. MCP connection alone does not publish queued work.
+Read [planning.json](planning.json) and [project-planning.md](project-planning.md). The canonical specs are publicly readable on GitHub, and Trello is configured for the verified Agile Sprint Board Backlog. Publication still requires an approved ticket breakdown and duplicate-safe reconciliation.
 
 ## Canonical specs
 
@@ -26,4 +26,4 @@ If an upstream workflow is explicitly requested, honor this source/configuration
 
 ## Change settings later
 
-Edit planning.json with the real checkout and, after MCP is connected, verified Trello board/list IDs. Keep Trello disabled until a tested publish request. GitHub is not selected merely because a remote is added. Rerunning setup must preserve AGENTS.md as canonical and these central-source/custom routing choices.
+Edit planning.json when the checkout, immutable GitHub source revision, or verified Trello destination changes. Rerunning setup must preserve these central-source/custom routing choices.

@@ -44,4 +44,4 @@ Use `$decoup-fe-to-spec` for canonical specs in `../decoup-specs/specs/frontend/
 
 ## Contributing
 
-See [Git hooks, commit conventions, CI and GitHub Flow](CONTRIBUTING.md).
+See [Git hooks, commit conventions, CI and the branch workflow](CONTRIBUTING.md).
